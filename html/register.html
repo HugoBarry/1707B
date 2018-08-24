@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name='viewport' content='width=device-width,user-scalable=no'/>
+	<meta name="keywords" content="立欢天气,天气注册,天气,工具,生活,天气预报,天气,天气预报查询,北京天气,天气在线"> 
+	<meta name='description' content='网站可以进行天气查询,也可以下载各类工具,欢迎广大朋友支持'/>
+	<meta name='author' content='HugoBarry'/>
+	<title>欢迎注册</title>
+	<link rel="icon" href="../favicon.ico">
+	<link rel="stylesheet" href="../css/public.css">
+	<link rel="stylesheet" href="../css/register.css">
+</head>
+<body style="background: url(http://i.tq121.com.cn/i/ucenter/pc/login/bg9.jpg) no-repeat;">
+	<div class="registerdiv" style="margin-top: 54px;">
+		<div class="l_logo"></div>
+		<div class="registerBox">
+			<ul class="login_nav">
+				<li class="select cur" id="phone">手机注册</li>
+				<li class="select" id="mail">邮箱注册</li>
+			</ul>
+			<div class="inpBox">
+				<div class="form">
+					<ul class="u p" style="padding-top: 30px;">
+						<li style="margin-top: 0;">
+							<input type="text" placeholder="手机号" id="phoneNum" class="phoneNum">
+							<i class="icon" id="phoneRight" style="display: none"></i>
+							<img src="http://i.tq121.com.cn/i/ucenter/pc/login/aa.png" alt="" style="width: 10px;" class="hidden">
+							<span class="phoneError" style="height:20px;width: 240px;color:#e84049;font-size:12px;font-family:Microsoft YaHei;border:0px;display: inline-block;font-size: 12px"></span>
+						</li>
+						<li style="margin-top: 2px;">
+							<input type="text" style="width: 240px;" class="yzcode phoneNum" placeholder="验证码" id="yzcode">
+							<i class="icon" style="display: none;margin-left: -30px;margin-top: 15px;" id="yzRight"></i>
+							<div class="code" style="background-color: #fff;width: 70px;height: 36px;border:1px solid #eee;text-align: center;line-height: 36px;">5263</div><br>
+							<img src="http://i.tq121.com.cn/i/ucenter/pc/login/aa.png" alt="" style="width: 10px;" class="hidden">
+							<span class="codeError" style="height:20px;width: 240px;color:#e84049;font-size:12px;font-family:Microsoft YaHei;border:0px;display: inline-block;font-size: 12px"></span>
+						</li>
+						<li style="margin-top: 7px;">
+							<input type="text" class="phoneNum" style="width: 240px;" placeholder="短信验证码" id="msg">
+							<i class="icon" id="smgRight" style="display:none;margin-left: -30px;margin-top: 15px;"></i>
+							<img src="http://i.tq121.com.cn/i/ucenter/pc/login/aa.png" alt="" style="width: 10px;display: none;" class="hidden">
+							<button class="code" style="background-color: #fff;width: 70px;height: 36px;border:1px solid #eee;text-align: center;line-height: 36px;cursor: pointer;" id="btn" disabled>点击获取</button>
+							<span class="msgError" style="height:20px;width: 240px;color:#e84049;font-size:12px;font-family:Microsoft YaHei;border:0px;display: inline-block;font-size: 12px"></span>
+						</li>
+						<li style="margin-top: 7px;">
+							<input type="password" minlength="6" maxlength="16" class="phoneNum" placeholder="密码（6-16位 字母 数字 下划线）" id="pwd">
+							<i class="icon" id="pswRight" style="display: none;"></i>
+							<img src="http://i.tq121.com.cn/i/ucenter/pc/login/aa.png" alt="" style="width: 10px;" class="hidden" >
+							<span class="msgError" style="height:20px;width: 240px;color:#e84049;font-size:12px;font-family:Microsoft YaHei;border:0px;display: inline-block;font-size: 12px"></span>
+							<div class="rBtn" style="width: 327px;padding-left: 5px;">
+								<button style="background-color: rgba(255,255,255,0);border:0;color: #fff;cursor: pointer;display: block;width: 100%;height: 100%">立即注册</button>
+								<span class="tip"></span>
+							</div>
+							<div class="lBtn" style="width: 327px;margin-top: 10px;">
+								已有账号<a href="login.html">立即登录</a>
+							</div>
+						</li>
+					</ul>
+					<ul class="u m" id="m" style="padding-top: 30px;display: none">
+						<li style="margin-top: 0;">
+							<input type="text" placeholder="邮箱" id="mailNum" class="phoneNum">
+							<i class="icon" id="mailRight" style="display: none;"></i>
+							<img src="http://i.tq121.com.cn/i/ucenter/pc/login/aa.png" alt="" style="width: 10px;" class="hidden">
+							<span class="phoneError" style="height:20px;width: 240px;color:#e84049;font-size:12px;font-family:Microsoft YaHei;border:0px;display: inline-block;font-size: 12px"></span>
+						</li>
+						<li style="margin-top: 2px;">
+							<input type="text" style="width: 240px;" class="yzcode phoneNum" placeholder="验证码" id="myzcode">
+							<i class="icon" style="display: none;margin-left: -30px;margin-top: 15px;" id="myzRight"></i>
+							<div class="code" style="background-color: #fff;width: 70px;height: 36px;border:1px solid #eee;text-align: center;line-height: 36px;">5263</div>
+							<img src="http://i.tq121.com.cn/i/ucenter/pc/login/aa.png" alt="" style="width: 10px;" class="hidden">
+							<span class="codeError" style="height:20px;width: 240px;color:#e84049;font-size:12px;font-family:Microsoft YaHei;border:0px;display: inline-block;font-size: 12px"></span>
+						</li>
+						<li style="margin-top: 0;">
+							<input type="text" placeholder="手机号" id="yzNum" class="phoneNum">
+							<i class="icon" id="phoneRight" style="display: none"></i>
+							<img src="http://i.tq121.com.cn/i/ucenter/pc/login/aa.png" alt="" style="width: 10px;" class="hidden">
+							<span class="phoneError" style="height:20px;width: 240px;color:#e84049;font-size:12px;font-family:Microsoft YaHei;border:0px;display: inline-block;font-size: 12px"></span>
+						</li>
+						<li style="margin-top: 7px;">
+							<input type="text" class="phoneNum" style="width: 240px;" placeholder="短信验证码" id="Mmsg">
+							<i class="icon" id="MsmgRight" style="display: none;margin-left: -30px;margin-top: 15px;"></i>
+							<img src="http://i.tq121.com.cn/i/ucenter/pc/login/aa.png" alt="" style="width: 10px;display: none;" class="hidden">
+							<button class="code" style="background-color: #fff;width: 70px;height: 36px;border:1px solid #eee;text-align: center;line-height: 36px;cursor: pointer;" id="mbtn">点击获取</button>
+							<span class="msgError" style="height:20px;width: 240px;color:#e84049;font-size:12px;font-family:Microsoft YaHei;border:0px;display: inline-block;font-size: 12px"></span>
+						</li>
+						<li style="margin-top: 7px;">
+							<input type="password" minlength="6" maxlength="16" class="phoneNum" placeholder="密码（6-16位 字母 数字 下划线）" id="psw">
+							<i class="icon" id="mpswRight" style="display: none;"></i>
+							<img src="http://i.tq121.com.cn/i/ucenter/pc/login/aa.png" alt="" style="width: 10px;" class="hidden">
+							<span class="msgError" style="height:20px;width: 240px;color:#e84049;font-size:12px;font-family:Microsoft YaHei;border:0px;display: inline-block;font-size: 12px"></span>
+							<div class="rBtn" style="width: 327px;padding-left: 5px;">
+								<button style="background-color: rgba(255,255,255,0);border:0;color: #fff;cursor: pointer;display: block;width: 100%;height: 100%">立即注册</button>
+								<span class="tip"></span>
+							</div>
+							<div class="lBtn" style="width: 327px;margin-top: 10px;">
+								已有账号<a href="login.html">立即登录</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div style="padding-bottom: 20px;background-color: #fff;"></div>
+			</div>
+		</div>
+	</div>
+	<script src='../lib/jquery-1.12.3.min.js'></script>
+	<script src="../js/register.js"></script>
+</body>
+</html>

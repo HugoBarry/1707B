@@ -1,0 +1,82 @@
+.registerdiv{
+	width: 422px;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+.l_logo {
+    background: url(../images/logo.png) no-repeat;
+    width: 174px;
+    height: 48px;
+    margin: 0 auto;
+}
+.login_nav {
+    width: 332px;
+    margin-left: 42px;
+    padding-top: 40px;
+    height: 40px;
+}
+.login_nav li.cur {
+    color: #043567;
+    border-bottom: 2px solid #043567;
+}
+.registerBox{
+	background: #FFF;
+	width: 100%;
+	margin-top: 35px;
+	margin-top: 35px;
+}
+.login_nav li {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #999ea2;
+    border-bottom: 1px solid #c7cdd2;
+    float: left;
+    width: 166px;
+    cursor: pointer;
+}
+.u{
+	width: 332px;
+	margin-left: 42px;
+}
+.u li input{
+	width: 327px;
+    height: 42px;
+    line-height: 42px;
+    border: 1px solid #ccd1d7;
+    border-radius: 2px;
+    padding-left: 5px;
+}
+.icon {
+    background: url(http://i.tq121.com.cn/i/ucenter/pc/login/xiaodui.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 306px;
+    margin-top: -30px;
+    /*display: inline-block !important;*/
+}
+img.hidden{
+	display: none;
+}
+.must{
+	color: red;
+	margin-right: 5px;
+}
+.code{
+	float: right;
+	position: relative;
+	top: 3px;
+	background-color: #CCC;
+}
+.rBtn{
+	display: inline-block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    color: #FFF;
+    text-align: center;
+    background: #043567;
+    border-radius: 2px;
+    cursor: pointer;
+}

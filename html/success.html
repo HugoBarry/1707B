@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name='viewport' content='width=device-width,user-scalable=no'/>
+	<meta name='description' content='路虽远，行则必至;事虽难，做则必成'/>
+	<meta name='author' content='HugoBarry'/>
+	<title>注册成功</title>
+	<link rel="icon" href="../favicon.ico">
+	<link rel="stylesheet" href="../css/public.css">
+	<link rel="stylesheet" href="../css/register.css">
+	<style>
+		canvas{
+			/*border: 1px solid red;*/
+		}
+		.canvas{
+			margin: 0 auto;
+			width: 300px;
+			height: 150px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-top: -150px;
+			margin-left: -125px;
+		}
+	</style>
+</head>
+<body style="background: url(http://i.tq121.com.cn/i/ucenter/pc/login/bg9.jpg) no-repeat;">
+	<div class="canvas">
+		<canvas id="canvas" width="300" height="150"></canvas>
+	</div>
+	<script>
+		var canvas = document.getElementById('canvas');
+		var ctx = canvas.getContext('2d');
+		ctx.beginPath();
+		ctx.save();
+		ctx.font = 'normal normal bolder 60px KaiTi';
+		ctx.fillStyle = 'orange'
+		ctx.fillText('注',50,80);
+		ctx.fill();
+		ctx.restore();
+		ctx.closePath();
+
+		ctx.beginPath();
+		ctx.save();
+		ctx.font = 'normal normal bolder 60px KaiTi';
+		ctx.fillStyle = 'yellow'
+		ctx.fillText('册',110,80);
+		ctx.fill();
+		ctx.restore();
+		ctx.closePath();
+
+		ctx.beginPath();
+		ctx.save();
+		ctx.font = 'normal normal bolder 60px KaiTi';
+		ctx.fillStyle = 'green'
+		ctx.fillText('成',160,80);
+		ctx.fill();
+		ctx.restore();
+		ctx.closePath();
+
+		ctx.beginPath();
+		ctx.save();
+		ctx.font = 'normal normal bolder 60px KaiTi';
+		ctx.fillStyle = 'cyan'
+		ctx.fillText('功',210,80);
+		ctx.fill();
+		ctx.restore();
+		ctx.closePath();
+		setTimeout(function(){
+			if (confirm('是否前往登录')) {
+				window.location = 'login.html';
+			}else{
+				window.location = '../index.html';
+			}
+		},1000)
+	</script>
+</body>
+</html>

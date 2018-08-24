@@ -1,0 +1,115 @@
+.header{
+	width: 100%;
+}
+.header .nav{
+	background: #043567;
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    overflow: hidden;
+    min-width: 1000px;
+}
+.header .nav .left{
+	float: left;
+	color: #fff;
+	font-size: 12px;
+	line-height: 30px;
+}
+.header .nav .left span{
+	margin-left: 15px;
+}
+.header .nav .right{
+	float: right;
+	color: #fff;
+	margin-left: 6px;
+}
+.right a{
+	display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    font-size: 12px;
+}
+.right a:nth-child(1){
+	padding-right: 10px;
+    height: 30px;
+    color: #fff;
+    line-height: 30px;
+    background: url(../images/icon-hui.png) 7px 6px no-repeat;
+    padding-left: 30px;
+    margin-right: 10px;
+}
+/*logo*/
+.main{
+	width: 100%;
+	box-shadow: 1px 1px 5px 0 #252525;
+	padding-top: 17px;
+	padding-bottom: 17px;
+}
+.main_box{
+	height: 45px;
+    margin-bottom: 17px;
+}
+.main_box .logo{
+	float: left;
+}
+.main_box .logo a{
+	font-size: 80px;
+	text-indent: -9999em;
+	text-align: center;
+	overflow: hidden;
+	background: url(../images/logo.png) no-repeat;
+    display: block;
+    height: 43px;
+    width: 172px;
+}
+.searchBox{
+	position: relative;
+    width: 400px;
+    left: 153px;
+    top: -35px;
+    height: 30px;
+    margin-left: 100px;
+}
+.searchBox input{
+	color: #aaa;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    padding: 0 30px 0 10px;
+    background: #fff;
+    width: 288px;
+    height: 30px;
+    line-height: 38px;
+    outline: 0;
+}
+.searchBox .btn{
+	display: block;
+    position: absolute;
+    z-index: 9999;
+    right: 7px;
+    top: 8px;
+    width: 23px;
+    right: 74px;
+    top: 50px;
+    height: 20px;
+    background: url(http://i.tq121.com.cn/i/weather2015/index/indexImg_gl.png) no-repeat -582px -198px;
+}
+.address{
+    float: right;
+    width: auto;
+    position: relative;
+    top: -20px;
+}
+.address .dz,.address .wd,.address .icon{
+    color: #043567;
+    display: block;
+    float: left;
+    font-size: 17px;
+    height: 30px;
+    line-height: 30px;
+    width: 68px;
+    margin-right: 15px;
+    overflow: hidden;
+    text-align: right;
+    position: relative;
+}
+.address .wd{width: auto;color: orange;};

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name='viewport' content='width=device-width,user-scalable=no'/>
+	<meta name="keywords" content="天空之恋,天气,工具,生活,天气预报,编程,天气预报查询,北京天气,天气在线"> 
+	<meta name='description' content='天空之恋专属你的空间,网站可以进行天气查询,也可以下载各类工具,欢迎广大朋友支持'/>
+	<meta name='author' content='HugoBarry'/>
+	<title>首页-天空之恋</title>
+	<link rel="icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+	<div class="header">
+		<div class="nav">
+			<div class="nav_main w">
+				<div class="left">
+					<span class="time"></span>
+					<span class="work"></span>
+					<span class="date"></span>
+					<span class="gj"><a href="javascript:;" style="color: #fff">工具下载</a></span>
+					<span class="gj"><a href="javascript:;" style="color: #fff">常用软件</a></span>
+				</div>
+				<div class="right">
+					<a href="html/login.html" class="begin">登录</a>
+					<a href="html/register.html" class="begin">注册</a>
+					<!-- 登录之后的 -->
+					<a href="center" style="display: none;" class="center user"></a>
+					<a href="javascript:;" style="display: none;" class="center logout">注销</a>
+				</div>
+			</div>
+		</div>
+		<div class="main">
+			<div class="w main_box">
+				<div class="logo"><a href="index.html">天空之恋</a></div>
+				<div class="searchBox">
+					<input type="text" id="text" placeholder="输入城市、乡镇、街道、景点名称 查天气">
+					<span class="btn"></span>
+				</div>
+				<div class="address">
+					<span class="dz" id="dz"></span>
+					<span class="icon" id="day"></span>
+					<span class="icon" id="night"></span>
+					<span class="wd"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+		<div id="container">
+			<span style="display: none;" id="span"></span>
+		</div>
+	</div>
+	<div class="footer" style="background-color: #043567;">
+		
+	</div>
+	
+	<script src="lib/jquery-1.12.3.min.js"></script>
+	<script src="js/getDate.js"></script>
+	    <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.9&key=68e1470df2b464207974ac184edcc5e6&plugin=AMap.CitySearch"></script>
+	<script src="js/index.js"></script>
+	<script>
+		
+	</script>
+</body>
+</html>
